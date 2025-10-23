@@ -1,5 +1,4 @@
 body{
-    border: 2px solid red;
     min-width: 100%;
     min-height: 100vh;
 }
@@ -29,15 +28,16 @@ main .hero{
 main .hero .title{
     position: relative;
     top: 12px;
-    margin-left: 9px;
+    margin-left: 12px;
     width: 40dvh;
-    font-size: 22px;
+    font-size: 26px;
     color: #FFFFFF;
 }
 
 main .location{
     display: flex;
     background-color: #1094DE;
+    backdrop-filter: blur(2px);
 }
 
 main .location h1{
@@ -88,4 +88,78 @@ main .services .service p{
     margin: 0 auto;
 }
 
-  
+main .contact h1{
+    margin: 18px;
+    font-size: 24px;
+    color: #0066FF;
+}
+
+main .contact .button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main .contact .button a{
+    cursor: pointer;
+    background-color: #0066FF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 12px;
+    width: 30dvh;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+main .contact .button a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+footer{
+    margin-top: 6dvh;
+    background-color: #1094DE;
+    padding-top: 20px;
+}
+
+footer section{
+    margin-left: 12px;
+}
+
+footer section .title-logo{
+    font-size: 22px;
+    margin-bottom: 3dvh;
+    color: white;
+    font-weight: 600;
+}
+
+footer section .about a{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+
+footer section .about a i{
+    margin-right: 9px;
+    color: #FFFFFF;
+}
+
+footer section .about h2{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer section .about h2 i{
+    color: #FFFFFF;
+    margin-right: 9px;
+}
+
+footer section p{
+    color: #FFFFFF;
+    margin-top: 16px;
+    font-size: 12px;
+}
+
+
