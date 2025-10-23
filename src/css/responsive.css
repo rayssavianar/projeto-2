@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+
+    main .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/car-desktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 300px;
+        width: 100%;
+        transition: 2s;
+    }
+
+    main .hero .title{
+        width: 60%;
+        font-size: 60px;
+    }
+}
