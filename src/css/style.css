@@ -1,0 +1,91 @@
+body{
+    border: 2px solid red;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #1094DE;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo{
+    width: 30dvh;
+}
+
+
+main .hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/car-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    width: 100%;
+    transition: 2s;
+}
+
+
+main .hero .title{
+    position: relative;
+    top: 12px;
+    margin-left: 9px;
+    width: 40dvh;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+main .location{
+    display: flex;
+    background-color: #1094DE;
+}
+
+main .location h1{
+    margin: 10px;
+    font-size: 16px;
+    color: #063099;
+}
+
+main .location h1 i{
+    margin-right: 8px;
+    color: #063099;
+}
+
+main .services{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+    margin-left: 6px;
+
+}
+
+main .services .nameservice{
+    color: #1094DE;
+    margin-left: 5px;
+    font-weight: 600;
+
+}
+
+main .services .service{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+main .services .service img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main .services .service h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+main .services .service p{
+    font-size: 15px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+  
